@@ -1,0 +1,16 @@
+# Local context, never versioned
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Experiment artifacts (models stay out of git)
+*.onnx
+*.pkl
+*.safetensors
+mlruns/
+mlflow.db
